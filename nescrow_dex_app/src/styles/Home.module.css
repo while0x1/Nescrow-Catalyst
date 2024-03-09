@@ -1,0 +1,110 @@
+
+.landing{
+    background-image: linear-gradient(to bottom right, #8b20d7 ,#051c6e, #18033a);
+    height: 100vh;
+  }
+  
+  
+  .logocontainer{
+    width: 150px;
+    height: 150px;
+    position: relative;
+  }
+  .logocontainer .logo{
+    height: 100%;
+    width: 100%;
+    position:relative;
+    min-width: 100%;
+  }
+  
+  .cmain{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    position: relative;
+    gap: 20px;
+  }
+  
+  .col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 2rem;
+    position:relative;
+  
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .rowc{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1rem;
+      gap: 20px;
+      position:relative;
+  }
+  
+  .r1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    position: relative;
+    gap: 20px;
+  
+  }
+  .button {
+    display: inline-block;
+    padding: 0.3em 1em;
+    width: 225px;
+    text-decoration: none;
+    color: white;
+    border: solid 2px #f3faff;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: .1s;
+    cursor: pointer;
+    font-size:x-large;
+    font-family : "Courier New";
+    padding-top: 10px; padding-left: 2rem; text-align: center;display:flex;justify-content:center;align-items:center;
+    }
+  
+    .button:hover {
+    border: solid 3px #f3faff;
+    box-shadow: #0ff;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+    }
+  
+    .button:disabled
+    {
+        cursor: not-allowed;
+        background-color: rgb(0, 0, 0) !important;
+    }
+  
+    @media (max-width: 600px) {
+      .r1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 5rem;
+        position: relative;
+        gap: 20px;
+      }
+  
+    }
