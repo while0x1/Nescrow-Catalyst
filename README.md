@@ -43,6 +43,7 @@ mv index.tsx bk_index.tsx
 mv Nescrow-Catalyst/nescrow_dex_app/src/pages/index.tsx nescrow_dex_app/src/pages/index.tsx
 mv Nescrow-Catalyst/nescrow_dex_app/src/pages/_app.tsx nescrow_dex_app/src/pages/_app.tsx
 mv Nescrow-Catalyst/nescrow_dex_app/src/pages/_document.tsx nescrow_dex_app/src/pages/_document.tsx
+cp Nescrow-Catalyst/nescrow_dex_app/public/* nescrow_dex_app/public
 
 #in dex_nescrow/nescrow_dex_app
 npm install @mui/material
