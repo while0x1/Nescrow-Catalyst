@@ -84,7 +84,9 @@ BF_HEADERS = {'project_id': '<your_preprod_key>'}
 BF_PROJ_ID = '<your_preprod_key>'
 #If Contract has changed updater REF_CBOR to your contracts CBOR reference utxo
 
-#once your blockfrost keys and environment static variables are set from ~/dex_nescrow/flask
+#once your blockfrost keys and environment static variables are set from ~/dex_nescrow/flask and your contract or the original contract is referenced you can install dependencies and run the back-end
+#dependencies
+pip3 install certbot certbot-nginx flask Flask-Cors opshinin==0.12.1 pycardano==0.8.1 
 python3 flask_nescrow_dex.py
 ```
 ## Contributions
