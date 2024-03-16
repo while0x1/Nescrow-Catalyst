@@ -87,3 +87,7 @@ BF_PROJ_ID = '<your_preprod_key>'
 #once your blockfrost keys and environment static variables are set from ~/dex_nescrow/flask
 python3 flask_nescrow_dex.py
 ```
+## Contributions
+
+We welcome contributions to the repo! Please submit any issues to the repo or even better - solve an existing  [issue](/issues) and submit a PR for merging into the codebase.
+More recommendations for developers can be found in the documentation and in the Final Catalyst Report. 
