@@ -20,7 +20,6 @@ Comprehensive documentation of the smart-contract, offchain code, and the front-
 ```
 ## Build
 Please refer https://blockfrost.io/  for generating mainnet and preprod keys
-=======
 
 ```
 mkdir dex_nescrow
@@ -87,7 +86,7 @@ BF_PROJ_ID = '<your_preprod_key>'
 
 #once your blockfrost keys and environment static variables are set from ~/dex_nescrow/flask and your contract or the original contract is referenced you can install dependencies and run the back-end
 #dependencies
-pip3 install certbot certbot-nginx flask Flask-Cors opshinin==0.12.1 pycardano==0.8.1 
+pip3 install certbot certbot-nginx flask Flask-Cors opshin==0.12.1 pycardano==0.8.1 
 python3 flask_nescrow_dex.py
 ```
 ## Contributions
